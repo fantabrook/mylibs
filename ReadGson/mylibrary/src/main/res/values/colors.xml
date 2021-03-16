@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#F8F8F8</color>
+    <color name="colorPrimaryDark">#F8F8F8</color>
+    <color name="colorAccent">@color/black</color>
+
+    <color name="black_overlay">#66000000</color>
+    <color name="text_color_toolbar">#66656A</color>
+    <color name="text_color">@color/black</color>
+    <color name="line_color">#BDBDBD</color>
+    <color name="background_color">#0B102D</color>
+    <color name="background_search_color">#1F8E8E93</color>
+    <color name="white">#FFFFFF</color>
+    <color name="hint">#B4B4C2</color>
+    <color name="black">#000000</color>
+    <color name="background_input">#E5E5E5</color>
+    <color name="new_blue">#00C9D6</color>
+    <color name="red">#FF0000</color>
+    <color name="facebook_blue">#3B5998</color>
+    <color name="unselected_tab">#B4B4C2</color>
+    <color name="off_white">#f4f4f4</color>
+    <color name="disable">#cdcdcd</color>
+    <color name="service_time">#FC0600</color>
+    <color name="charging">#FF8A00</color>
+    <color name="blue_fully">#00F900</color>
+    <color name="grey_profile">#EDEDED</color>
+</resources>

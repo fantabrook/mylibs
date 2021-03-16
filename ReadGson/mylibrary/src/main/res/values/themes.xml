@@ -1,5 +1,11 @@
 <resources>
 
+    <style name="Theme.ReadGson" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
     <style name="Theme.ReadGson.NoActionBar">
         <item name="windowActionBar">false</item>
         <item name="windowNoTitle">true</item>

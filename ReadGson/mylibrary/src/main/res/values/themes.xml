@@ -1,0 +1,11 @@
+<resources>
+
+    <style name="Theme.ReadGson.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.ReadGson.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.ReadGson.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+</resources>

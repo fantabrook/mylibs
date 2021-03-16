@@ -2,4 +2,11 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.mylibrary">
 
+    <application>
+        <activity
+            android:name=".activities.ShowActivity"
+            android:label="@string/title_activity_show"
+            android:theme="@style/Theme.ReadGson.NoActionBar"></activity>
+    </application>
+
 </manifest>

@@ -7,9 +7,10 @@ def path = "$projectDir"
 print("path : "+path)
 def jsonFile = file('$projectDir/app/google-services.json')
 def jsonData = ""
-if(jsonFile.exists()){
-    jsonData = jsonFile.getText('UTF-8').bytes.encodeBase64().toString()
-}
+jsonData = path
+//if(jsonFile.exists()){
+//    jsonData = jsonFile.getText('UTF-8').bytes.encodeBase64().toString()
+//}
 
 android {
     compileSdkVersion 30

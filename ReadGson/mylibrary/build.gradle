@@ -26,10 +26,10 @@ android {
 
     buildTypes {
         debug{
-            buildConfigField "String", "GOOGLE_SERVICE_JSON", "\"$jsonData\""
+            //buildConfigField "String", "GOOGLE_SERVICE_JSON", "\"$jsonData\""
         }
         release {
-            buildConfigField "String", "GOOGLE_SERVICE_JSON", "\"$jsonData\""
+            //buildConfigField "String", "GOOGLE_SERVICE_JSON", "\"$jsonData\""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }

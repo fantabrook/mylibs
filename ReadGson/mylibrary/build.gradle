@@ -4,6 +4,12 @@ plugins {
     id 'kotlin-parcelize'
 }
 
+def jsonFile = file('google-services.json')
+def jsonData = ""
+if(jsonFile.exists()){
+    jsonData = jsonFile.getText('UTF-8').bytes.encodeBase64().toString()
+}
+
 android {
     compileSdkVersion 30
     buildToolsVersion "30.0.2"
@@ -19,7 +25,11 @@ android {
     }
 
     buildTypes {
+        debug{
+            buildConfigField "String", "GOOGLE_SERVICE_JSON", "\"$jsonData\""
+        }
         release {
+            buildConfigField "String", "GOOGLE_SERVICE_JSON", "\"$jsonData\""
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
@@ -57,3 +67,4 @@ task createJar(type: Copy) {
 }
 
 createJar.dependsOn(deleteJar, build)
+

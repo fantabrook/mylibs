@@ -20,6 +20,7 @@ class ShowActivity : AppCompatActivity() {
             val intent = Intent()
             intent.putExtra("data", "test")
             setResult(111, intent)
+            finish()
         }
     }
 }

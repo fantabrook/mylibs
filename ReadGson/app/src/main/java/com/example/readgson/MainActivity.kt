@@ -19,9 +19,8 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
 
-            val google = BuildConfig.GOOGLE_SERVICE_JSON
-            var gson = Gson()
-            val json = Utilities.loadJSONFromAsset(this)
+            //val google = BuildConfig.GOOGLE_SERVICE_JSON
+            val googleService = Utilities.loadGoogleServiceFromAsset(this)
             print("")
 //            var mrtLocation = gson.fromJson<MRTLocation>(json, MRTLocation::class.java)
 //            Snackbar.make(view, "Code : "+mrtLocation.code, Snackbar.LENGTH_LONG)

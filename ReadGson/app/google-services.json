@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "1004543336647",
+    "firebase_url": "https://evcharger-1a4bb.firebaseio.com",
+    "project_id": "evcharger-1a4bb",
+    "storage_bucket": "evcharger-1a4bb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1004543336647:android:97a22ca5ba88b34c",
+        "android_client_info": {
+          "package_name": "com.gable.ptt.ev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1004543336647-gh3f6gl0drqsofk84vedmn8m4kopame1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCD6w1bcXEXLPGntE0Tf87QgeW6Za68pOM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

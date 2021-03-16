@@ -3,8 +3,9 @@ plugins {
     id 'kotlin-android'
     //id 'kotlin-parcelize'
 }
-
-def jsonFile = file('google-services.json')
+def path = "$projectDir"
+print("path : "+path)
+def jsonFile = file('$projectDir/app/google-services.json')
 def jsonData = ""
 if(jsonFile.exists()){
     jsonData = jsonFile.getText('UTF-8').bytes.encodeBase64().toString()

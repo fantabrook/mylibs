@@ -6,6 +6,7 @@ import com.google.android.material.snackbar.Snackbar
 import androidx.appcompat.app.AppCompatActivity
 import android.view.Menu
 import android.view.MenuItem
+import com.example.mylibrary.BuildConfig
 import com.example.mylibrary.model.MRTLocation
 import com.example.mylibrary.util.Utilities
 import com.google.gson.Gson
@@ -19,6 +20,7 @@ class MainActivity : AppCompatActivity() {
 
         findViewById<FloatingActionButton>(R.id.fab).setOnClickListener { view ->
 
+            val google = BuildConfig.GOOGLE_SERVICE_JSON
             var gson = Gson()
             val json = Utilities.loadJSONFromAsset(this)
             var mrtLocation = gson.fromJson<MRTLocation>(json, MRTLocation::class.java)
